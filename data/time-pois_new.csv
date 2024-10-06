@@ -1,0 +1,74 @@
+PID,POIs,Time 1,Time 2,In time 1,In time 2,Out time 1,Out time 2
+POI1,Marina Beach,7:00,2:45,10:00,18:30,17:00,21:15
+POI2,Kapaleeshwarar Temple,8:00,3:00,11:00,19:30,18:00,22:15
+POI3,Santhome Cathedral Basilica,9:00,2:15,12:00,17:00,16:00,20:15
+POI4,Fort St. George,10:00,2:30,12:30,18:00,17:30,21:00
+POI5,Government Museum Chennai,8:30,1:45,10:30,17:15,15:00,20:30
+POI6,Valluvar Kottam,9:30,3:00,11:15,18:15,16:15,21:00
+POI7,Arignar Anna Zoological Park,7:30,2:45,10:45,18:45,17:15,21:30
+POI8,Guindy National Park,8:30,3:15,11:30,19:30,18:15,22:30
+POI9,Ashtalakshmi Temple,8:00,2:30,10:00,17:30,15:45,20:00
+POI10,MGM Beach Resort,9:00,3:00,11:00,18:30,18:00,22:15
+POI11,Vivekananda House,7:15,2:00,10:30,18:00,15:15,21:00
+POI12,Chennai Lighthouse,8:45,2:15,11:15,17:45,16:30,20:30
+POI13,Dakshina Chitra Museum,8:00,3:00,11:30,19:00,17:00,21:00
+POI14,Theosophical Society Adyar,9:30,1:45,10:15,18:15,16:00,20:45
+POI15,Thousand Lights Mosque,7:45,2:30,10:00,18:00,16:30,20:30
+POI16,Armenian Church,8:30,3:30,11:00,19:30,18:00,22:00
+POI17,Kalakshetra Foundation,7:15,2:45,10:00,18:30,17:15,21:30
+POI18,Edward Elliot's Beach,8:15,3:00,11:30,19:30,18:15,22:30
+POI19,Cholamandal Artists' Village,8:30,3:15,11:15,19:00,18:15,22:00
+POI20,MGR Memorial,9:15,2:30,10:45,18:30,17:00,21:00
+POI21,Ripon Building,7:45,1:45,10:15,17:15,16:00,20:15
+POI22,Anna Centenary Library,8:15,3:15,11:15,19:00,17:30,21:15
+POI23,St. Thomas Mount,8:00,3:00,11:30,19:00,18:30,22:00
+POI24,Parthasarathy Temple,9:00,2:30,10:15,17:00,16:15,20:15
+POI25,St. George's Cathedral,7:30,2:45,10:30,18:15,17:00,21:00
+POI26,Kora Food Street,8:45,3:00,11:30,18:00,16:30,20:30
+POI27,ISKCON Temple Chennai,7:00,2:30,10:00,17:30,17:30,21:00
+POI28,FlyDining Chennai,8:30,3:15,11:30,19:00,18:15,22:30
+POI29,Pondy Bazaar,8:00,3:00,11:00,19:00,17:00,20:45
+POI30,T Nagar,9:00,1:30,10:00,18:00,15:15,21:00
+POI31,Spencer Plaza,8:15,2:45,10:30,18:30,17:15,21:15
+POI32,Phoenix Market City,8:00,3:00,11:30,19:00,18:15,22:00
+POI33,MGR Film City,9:00,2:00,10:00,17:30,16:00,20:15
+POI34,ECR Road Drive,7:45,3:30,11:15,19:00,18:00,22:00
+POI35,Express Avenue Mall,8:30,2:45,10:15,17:15,16:30,20:30
+POI36,Madras Crocodile Bank,8:00,3:00,11:30,19:00,17:00,22:00
+POI37,St. Mary's Church,9:00,2:00,10:00,17:30,16:00,20:15
+POI38,VGP Universal Kingdom,7:30,3:15,11:15,19:00,18:15,21:30
+POI39,Muttukadu Boat House,8:00,2:30,10:00,17:30,15:45,20:00
+POI40,Dakshina Chitra Heritage Museum,9:30,1:45,10:15,18:15,16:00,20:45
+POI41,Semmozhi Poonga,8:15,3:00,11:30,19:30,18:15,22:00
+POI42,Arulmigu Marundeeswarar Temple,8:00,2:00,10:00,17:00,15:15,20:00
+POI43,Chennai Snake Park Trust,7:30,3:30,11:15,19:00,18:00,22:15
+POI44,St. Andrew's Church,8:30,1:45,10:15,18:30,17:15,21:30
+POI45,Shirdi Sai Baba Temple,7:45,2:30,10:00,18:00,16:30,20:30
+POI46,Kapaleeshwarar Temple Tank,9:15,3:15,11:30,19:00,18:15,22:00
+POI47,Queensland Amusement Park,8:00,2:00,10:00,17:30,15:00,20:15
+POI48,Madras War Cemetery,8:30,3:00,11:00,19:00,17:00,20:30
+POI49,Higginbotham's,9:00,2:45,10:30,18:30,16:45,21:15
+POI50,The Faraway Tree Gallery,8:15,3:15,11:30,19:30,18:00,22:00
+POI51,ECR Beach,8:00,2:30,10:00,17:30,15:30,20:15
+POI52,Amethyst Cafe,9:00,3:00,11:15,18:15,16:15,21:00
+POI53,CSI St. Thomas English Church,8:30,2:15,10:45,18:45,17:30,21:30
+POI54,The Forum Vijaya Mall,7:15,2:30,10:00,18:00,15:00,20:00
+POI55,Golden Beach,8:45,3:15,11:30,19:30,18:15,22:30
+POI56,Velankanni Church,8:00,2:45,10:15,18:15,17:00,21:00
+POI57,VGP Marine Kingdom,9:30,3:00,11:00,18:30,18:00,22:15
+POI58,Rail Museum Chennai,7:45,2:00,10:30,18:30,15:15,20:15
+POI59,Chennai Port,8:30,1:30,10:00,17:00,15:00,20:30
+POI60,Anna University,9:00,3:30,11:15,19:00,17:15,22:00
+POI61,Pantheon Road,8:00,2:30,10:15,18:15,16:00,20:30
+POI62,Birla Planetarium,7:30,3:00,10:45,19:30,17:30,22:00
+POI63,VR Chennai,8:15,2:15,11:00,18:30,16:30,20:30
+POI64,Madhavaram Botanical Garden,9:00,2:00,10:30,17:15,15:30,21:15
+POI65,Chennai City Center Mall,8:30,3:15,11:30,19:00,18:15,22:15
+POI66,Mahalingapuram Ayyappan Temple,8:00,2:45,10:15,17:30,16:00,20:00
+POI67,Mangadu Kamakshi Amman Temple,9:15,3:00,11:15,18:00,17:00,21:30
+POI68,Connemara Library,7:30,2:30,10:00,18:00,16:15,20:15
+POI69,The Royal Chitran (Chokhi Dhani),8:00,3:15,11:15,19:00,18:15,22:00
+POI70,Shirdi Sai Baba Temple Injambakkam,9:00,2:00,10:30,17:45,15:00,20:00
+POI71,Velachery Lake,7:45,2:45,10:15,18:15,16:00,21:00
+POI72,Asiatic Society Chennai,8:15,3:00,11:00,19:00,17:30,22:15
+POI73,Chetpet Eco Park,8:30,2:15,10:45,18:30,17:15,21:00

@@ -1,0 +1,74 @@
+PID,POI,Shows and Concerts,Scenic,Local Experiences,Religious,History and Culture,Museum,Food and Drinks,Adventure,Shopping
+POI1,Marina Beach,0,5,4,0,2,0,4,2,0
+POI2,Kapaleeshwarar Temple,0,4,3,5,5,0,1,0,1
+POI3,Santhome Cathedral Basilica,0,4,3,5,4,0,2,0,0
+POI4,Fort St. George,0,3,2,0,5,4,0,0,0
+POI5,Government Museum Chennai,0,3,2,0,4,5,0,0,0
+POI6,Valluvar Kottam,0,3,2,0,4,3,0,0,0
+POI7,Arignar Anna Zoological Park,0,4,3,0,2,0,1,5,0
+POI8,Guindy National Park,0,5,4,0,3,0,0,3,0
+POI9,Ashtalakshmi Temple,0,4,3,5,4,0,0,0,0
+POI10,MGM Beach Resort,0,4,3,0,0,0,4,3,1
+POI11,Vivekananda House,0,4,3,0,4,0,1,0,0
+POI12,Chennai Lighthouse,0,3,2,0,4,0,1,0,0
+POI13,Dakshina Chitra Museum,0,4,4,0,5,5,2,0,0
+POI14,Theosophical Society Adyar,0,4,3,0,4,0,0,0,0
+POI15,Thousand Lights Mosque,0,3,3,5,4,0,0,0,2
+POI16,Armenian Church,0,3,2,5,4,0,0,0,0
+POI17,Kalakshetra Foundation,0,4,4,0,5,0,2,0,0
+POI18,Edward Elliot's Beach,0,5,4,0,0,0,3,5,0
+POI19,Cholamandal Artists' Village,0,3,4,0,4,0,1,0,2
+POI20,MGR Memorial,0,4,2,0,5,0,1,0,0
+POI21,Ripon Building,0,3,2,0,5,0,0,0,0
+POI22,Anna Centenary Library,0,4,3,0,3,5,0,0,0
+POI23,St. Thomas Mount,0,5,3,5,5,0,1,0,0
+POI24,Parthasarathy Temple,0,4,2,5,5,0,0,0,1
+POI25,St. George's Cathedral,0,3,2,5,4,0,0,0,0
+POI26,Kora Food Street,0,0,4,0,0,0,5,0,0
+POI27,ISKCON Temple Chennai,0,4,3,5,5,0,1,0,0
+POI28,FlyDining Chennai,0,2,4,0,0,0,5,3,0
+POI29,Pondy Bazaar,0,3,4,0,0,0,5,0,4
+POI30,T Nagar,0,3,4,0,0,0,5,0,5
+POI31,Spencer Plaza,0,2,3,0,0,0,5,0,5
+POI32,Phoenix Market City,0,3,4,0,0,0,5,0,5
+POI33,MGR Film City,0,2,3,0,4,0,0,0,0
+POI34,ECR Road Drive,0,5,4,0,0,0,3,5,2
+POI35,Express Avenue Mall,0,3,3,0,0,0,4,0,5
+POI36,Madras Crocodile Bank,0,5,4,0,5,0,2,5,0
+POI37,St. Mary's Church,0,4,2,5,5,0,0,0,0
+POI38,VGP Universal Kingdom,0,4,4,0,0,0,5,4,5
+POI39,Muttukadu Boat House,0,5,4,0,2,0,0,5,0
+POI40,Dakshina Chitra Heritage Museum,0,4,4,0,5,0,0,0,0
+POI41,Semmozhi Poonga,0,5,4,0,0,0,0,0,0
+POI42,Arulmigu Marundeeswarar Temple,0,4,4,5,0,0,0,0,0
+POI43,Chennai Snake Park Trust,0,5,4,0,0,5,0,0,0
+POI44,St. Andrew's Church,0,4,4,5,0,0,0,0,0
+POI45,Shirdi Sai Baba Temple,0,4,3,5,0,0,0,0,0
+POI46,Kapaleeshwarar Temple Tank,0,3,3,5,4,0,0,0,0
+POI47,Queensland Amusement Park,0,4,4,0,0,0,5,5,5
+POI48,Madras War Cemetery,0,4,3,0,5,0,0,0,0
+POI49,Higginbotham's,0,2,2,0,4,0,0,0,5
+POI50,The Faraway Tree Gallery,0,3,2,0,3,0,0,0,2
+POI51,ECR Beach,0,5,3,0,0,0,3,0,0
+POI52,Amethyst Cafe,0,3,2,0,0,0,5,0,0
+POI53,CSI St. Thomas English Church,0,4,2,5,0,0,0,0,0
+POI54,The Forum Vijaya Mall,0,3,3,0,0,0,5,0,5
+POI55,Golden Beach,0,4,3,0,0,0,5,4,4
+POI56,Velankanni Church,0,5,3,5,5,0,0,0,0
+POI57,VGP Marine Kingdom,0,4,4,0,0,0,5,4,5
+POI58,Rail Museum Chennai,0,4,4,0,5,5,0,0,0
+POI59,Chennai Port,0,3,2,0,4,0,0,0,0
+POI60,St. Luke's Church,0,4,4,5,4,2,0,0,0
+POI61,Pantheon Road,0,4,4,0,5,0,0,0,0
+POI62,Birla Planetarium,0,3,3,0,4,5,0,0,0
+POI63,VR Chennai,0,3,2,0,0,0,5,0,5
+POI64,Madhavaram Botanical Garden,0,5,4,0,0,0,0,0,0
+POI65,Chennai City Center Mall,0,3,3,0,0,0,5,0,5
+POI66,Mahalingapuram Ayyappan Temple,0,3,3,5,5,0,0,0,0
+POI67,Mangadu Kamakshi Amman Temple,0,4,3,5,0,0,0,0,0
+POI68,Connemara Library,0,3,3,0,4,0,0,0,0
+POI69,The Royal Chitran (Chokhi Dhani),0,4,4,0,4,0,5,0,0
+POI70,Shirdi Sai Baba Temple Injambakkam,0,4,3,5,0,0,0,0,0
+POI71,Velachery Lake,0,5,4,0,0,0,0,0,0
+POI72,Asiatic Society Chennai,0,4,3,5,0,0,0,0,0
+POI73,Chetpet EcoPark,0,5,4,0,2,0,3,4,0
