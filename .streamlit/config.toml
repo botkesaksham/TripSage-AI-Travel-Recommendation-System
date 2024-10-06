@@ -1,0 +1,30 @@
+[theme]
+# Primary accent color
+primaryColor = "#28a745"
+
+# Background color for the app
+backgroundColor = "#000000"
+
+# Secondary background color for sidebar and other elements
+secondaryBackgroundColor = "#062952"
+
+# Text color
+textColor = "#FFFFFF"
+
+# Font
+font = "sans serif"  # Can be "sans serif", "serif", or "monospace"
+
+# Font family from Google Fonts (optional)
+# Uncomment the line below to apply a specific Google Font to your app
+# To find the font name, visit https://fonts.google.com/
+# font = "Kanit"
+
+[server]
+# If you want to access your app remotely when it's deployed
+headless = true
+
+# Enable CORS (Cross-Origin Resource Sharing)
+enableCORS = false
+
+# Port configuration for local development (optional)
+port = 8501
