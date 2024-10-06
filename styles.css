@@ -39,6 +39,25 @@
     margin-left: 0px;
 }
 
+.css-1d391kg {  /* This class corresponds to the dropdown background */
+    color: #000000 !important;  /* Black text color */
+}
+
+.css-1d391kg:focus {
+    border-color: #000000 !important;  /* Border color on focus */
+}
+
+.stSelectbox, .stMultiselect, .stRadio {
+    color: #000000;  /* Black text color */
+}
+
+.css-hxt7ib {
+  padding-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 6rem;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .css-17ziqus {

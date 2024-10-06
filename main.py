@@ -13,25 +13,6 @@ def load_css(file_path):
 css_path = pathlib.Path("styles.css")
 load_css(css_path)
 
-custom_css = """
-<style>
-    .css-1d391kg {  /* This class corresponds to the dropdown background */
-        background-color: #FFFFFF !important;  /* White background */
-        color: #000000 !important;  /* Black text color */
-    }
-
-    .css-1d391kg:focus {
-        border-color: #0072F5 !important;  /* Border color on focus */
-    }
-
-    .stSelectbox, .stMultiselect, .stRadio {
-        background-color: #FFFFFF;  /* White background for the select and radio buttons */
-        color: #000000;  /* Black text color */
-    }
-</style>
-"""
-st.markdown(custom_css, unsafe_allow_html=True)
-
 st.title('Get Started. Select your preferences!')
 
 # Load the saved itinerary data
