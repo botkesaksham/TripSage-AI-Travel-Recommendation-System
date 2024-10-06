@@ -67,6 +67,12 @@
     }
 }
 
+.css-17ziqus {
+    width: 22rem; /* Width for mobile devices */
+    box-shadow: rgba(0, 0, 0, 0.16) -2rem 0px 2rem 2rem;
+    z-index: 1000030; /* Updated z-index for mobile */
+}
+
 .timeline {
     position: relative;
     margin: 0 auto;
