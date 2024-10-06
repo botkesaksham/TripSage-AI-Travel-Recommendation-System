@@ -60,14 +60,14 @@
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-    .css-17ziqus {
+   .css-a3tcus {
         width: 20rem; /* Width for mobile devices */
         box-shadow: rgba(0, 0, 0, 0.16) -2rem 0px 2rem 2rem;
         z-index: 1000030; /* Updated z-index for mobile */
     }
 }
 
-.css-17ziqus {
+.css-a3tcus{
     width: 22rem; /* Width for mobile devices */
     box-shadow: rgba(0, 0, 0, 0.16) -2rem 0px 2rem 2rem;
     z-index: 1000030; /* Updated z-index for mobile */
