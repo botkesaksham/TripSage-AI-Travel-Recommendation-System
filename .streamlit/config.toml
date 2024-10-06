@@ -1,5 +1,5 @@
 [theme]
-primaryColor = "#28a745"  # Color of the primary elements (e.g., buttons)
+primaryColor = "##000000"  # Color of the primary elements (e.g., buttons)
 secondaryBackgroundColor = "#F0F0F0"  # Light grey for secondary elements
 textColor = "#000000"  # Text color for better readability
 font = "sans serif"  # Font style for the app
