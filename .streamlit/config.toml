@@ -1,9 +1,9 @@
 [theme]
-primaryColor = "#ffffff"              # Color of primary elements like buttons
-backgroundColor = "#000000"           # Background for the app
-secondaryBackgroundColor = "#ffffff"  # Sidebar background color
-textColor = "#ffffff"                 # General text color
-font = "sans serif"                   # Font choice: "sans serif", "serif", "monospace"
+#primaryColor = "#ffffff"              # Color of primary elements like buttons
+#backgroundColor = "#000000"           # Background for the app
+#secondaryBackgroundColor = "#ffffff"  # Sidebar background color
+#textColor = "#ffffff"                 # General text color
+#font = "sans serif"                   # Font choice: "sans serif", "serif", "monospace"
 
 [server]
 headless = true
