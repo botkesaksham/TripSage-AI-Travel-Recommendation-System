@@ -16,19 +16,19 @@ streamlit_style = """
       }
 
       [data-testid="stAppViewContainer"] {
-        max-width: 100%;
+        max-width: 100% !important;;
         padding: 0px !important;
         margin: 0px !important;
       }
       [data-testid="stAppViewBlockContainer"] {
-        max-width:70rem;
+        max-width:70rem !important;;
       }
 
       [data-testid="stHeader"] {
-        background: transparent;
+        background: transparent !important;;
       } 
       [data-testid="stSidebar"] {
-        background:white;
+        background:white !important;;
         backdrop-filter: blur(200px);
       }
 
