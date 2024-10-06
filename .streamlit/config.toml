@@ -1,11 +1,10 @@
 [theme]
-#primaryColor = "#ffffff"              # Color of primary elements like buttons
-#backgroundColor = "#000000"           # Background for the app
-#secondaryBackgroundColor = "#ffffff"  # Sidebar background color
-#textColor = "#ffffff"                 # General text color
-#font = "sans serif"                   # Font choice: "sans serif", "serif", "monospace"
+primaryColor = "#FFFFFF"  # Change to a primary color for your theme
+ # Set the main background color to white
+secondaryBackgroundColor = "#F0F0F0"  # Light grey for secondary elements
+textColor = "#000000"  # Text color to black for better readability
+font = "sans serif"  # Choose your preferred font
 
-[server]
-headless = true
-enableCORS = false
-port = 8501
+[sidebar]
+backgroundColor = "#FFFFFF"  # White background for the sidebar
+textColor = "#000000"  # Text color for the sidebar
