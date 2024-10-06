@@ -24,9 +24,28 @@
 [data-testid="stHeader"] {
     background: transparent !important;;
 } 
-[data-testid="stSidebar"] {
-    background: white !important;;
-    backdrop-filter: blur(200px);
+
+.css-17ziqus {
+    background-color: rgb(38, 39, 48);
+    background-attachment: fixed;
+    flex-shrink: 0;
+    height: calc(-2px + 100vh);
+    top: 2px;
+    overflow: overlay;
+    position: relative;
+    transition: margin-left 300ms, box-shadow 300ms;
+    width: 22rem; /* Default width for laptops */
+    z-index: 1000021;
+    margin-left: 0px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .css-17ziqus {
+        width: 20rem; /* Width for mobile devices */
+        box-shadow: rgba(0, 0, 0, 0.16) -2rem 0px 2rem 2rem;
+        z-index: 1000030; /* Updated z-index for mobile */
+    }
 }
 
 .timeline {

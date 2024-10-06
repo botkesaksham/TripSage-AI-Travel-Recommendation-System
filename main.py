@@ -45,7 +45,7 @@ def main():
     # Sidebar input section
     with st.sidebar:
         # Add your logo or image here in the sidebar
-        st.image("data/images.png",  width=370)  # Add the path to your logo
+        st.image("data/images.png",  width=300)  # Add the path to your logo
         st.header("Provide Your Preferences") 
 
         Type = st.multiselect("Vacation type according to priority:", vacation_types)  
