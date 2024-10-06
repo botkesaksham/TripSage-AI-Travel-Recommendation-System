@@ -148,7 +148,7 @@ def output_main(Type, Duration, Budget, TYPE, Ques):
 # Function to get hotel price from the CSV file
 def get_hotel_price(hotel_name):
     try:
-        hotel_data = pd.read_csv('data/Chennai_Hotels.csv')
+        hotel_data = pd.read_csv('data/chennai_Hotels.csv')
         hotel_row = hotel_data[hotel_data['Hotel'] == hotel_name]
         if not hotel_row.empty:
             price = hotel_row['Price'].values[0]
