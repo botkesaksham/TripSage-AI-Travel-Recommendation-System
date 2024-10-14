@@ -16,8 +16,8 @@ load_css(css_path)
 st.title('Get Started. Select your preferences!')
 
 # Load the saved itinerary data
-with open("lol.pkl", "rb") as pickle_in:  
-    load_lol = pickle.load(pickle_in)  
+# with open("lol.pkl", "rb") as pickle_in:  
+#     load_lol = pickle.load(pickle_in)  
 
 # Function to process and return the output
 def output_main(Type, Duration, Budget, TYPE, Ques):  
