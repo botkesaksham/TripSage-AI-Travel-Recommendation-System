@@ -16,3 +16,5 @@ pandas==1.1.5
 streamlit-folium==0.4.0
 setuptools>=58.0.0
 altair<5
+python-telegram-bot==20.3  # Version for compatibility with telegram API
+python-dotenv==1.0.0       # For loading environment variables
