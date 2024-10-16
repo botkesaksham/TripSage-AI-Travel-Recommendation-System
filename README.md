@@ -6,6 +6,10 @@ TripSage is an innovative AI-powered travel recommendation system designed to cr
 
 This particular version of TripSage is specifically designed with data from **_Chennai_** and generates itineraries focused on locations within the city. Future improvements will include expanding trip planning capabilities to cover other major cities across India, allowing for a broader range of destination options.
 
+## Deployed Link 
+
+https://tripsage.streamlit.app/
+
 ## Features
 
 - *Custom Itinerary Generation*: Tailors itineraries based on user input.
