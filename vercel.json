@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api.py",  // Path to your main Flask application file
+      "use": "@vercel/python"  // Use the Vercel Python builder
+    }
+  ],
+  "routes": [
+    {
+      "src": "/plan_trip",
+      "methods": ["POST"],
+      "dest": "api.py"  // Direct all POST requests to /plan_trip to your Flask app
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api.py"  // Direct all other routes to your Flask app
+    }
+  ],
+  "env": {
+    // Here you can define environment variables if needed
+  },
+  "functions": {
+    "api/*": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}
