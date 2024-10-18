@@ -1,4 +1,4 @@
-python_version >= 3.9
+python_version >= '3.9'
 streamlit== 1.39.0  # Latest stable version
 numpy==1.25.0  # Updated for better compatibility
 plotly==5.15.0  # Updated for better compatibility
