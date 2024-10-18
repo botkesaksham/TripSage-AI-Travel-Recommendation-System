@@ -100,7 +100,6 @@ async def start(ctx):
     try:
         Output, Info = FINAL(Type, Duration, Budget, TYPE, Ques)
 
-    
         response_msg = f"**Travel Details:**\n" \
                        f"Vacation Type: {', '.join(Type)}\n" \
                        f"Duration: {Duration} days\n" \
@@ -141,10 +140,14 @@ app = Flask(__name__)
 def home():
     return "Bot is running!", 200
 
+# The following function will run the Flask app but it shouldn't be called directly
 def run_flask():
     app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
 
-flask_thread = Thread(target=run_flask)
-flask_thread.start()
+# The Flask app will be served by Gunicorn when you deploy, so we don't need to start it here.
 
-bot.run(TOKEN)
+# Only run the bot if this script is executed directly
+if __name__ == "__main__":
+    flask_thread = Thread(target=run_flask)
+    flask_thread.start()
+    bot.run(TOKEN)
