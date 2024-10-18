@@ -3,23 +3,17 @@ from discord.ext import commands
 import pandas as pd
 import os
 from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
-
-# Get the bot token from environment variable
-TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-
-# Assuming you have FINAL and get_hotel_price functions from your existing code
+from flask import Flask
+from threading import Thread
 from poi_trialmerged import FINAL
 
-# Initialize the bot with the required intents
+load_dotenv()
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 intents = discord.Intents.default()
 intents.messages = True
-intents.message_content = True  # Needed for message content
+intents.message_content = True 
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-# Function to get hotel price from the CSV file
 def get_hotel_price(hotel_name):
     try:
         hotel_data = pd.read_csv('data/chennai_Hotels.csv')
@@ -106,7 +100,7 @@ async def start(ctx):
     try:
         Output, Info = FINAL(Type, Duration, Budget, TYPE, Ques)
 
-        # Prepare and display user inputs and the suggested itinerary
+    
         response_msg = f"**Travel Details:**\n" \
                        f"Vacation Type: {', '.join(Type)}\n" \
                        f"Duration: {Duration} days\n" \
@@ -115,7 +109,7 @@ async def start(ctx):
                        f"Covering Maximum Places Priority: {Ques}\n"
 
         # Get hotel price and display
-        hotel_name = Info[-1]  # Assuming the last info item is the hotel name
+        hotel_name = Info[-1]  
         price = get_hotel_price(hotel_name)
 
         if price is not None:
@@ -135,11 +129,22 @@ async def start(ctx):
                 response_msg += f"Activity {day_count}: {item}\n"
                 day_count += 1
 
-        # Use the function to send long messages
         await send_long_message(ctx.channel, response_msg)
 
     except Exception as e:
         await ctx.send(f"Error: {str(e)}")
 
-# Run the bot with your token
+# Initialize Flask app
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running!", 200
+
+def run_flask():
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+
+flask_thread = Thread(target=run_flask)
+flask_thread.start()
+
 bot.run(TOKEN)
