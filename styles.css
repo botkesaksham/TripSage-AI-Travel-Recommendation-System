@@ -15,6 +15,10 @@
     max-width: 60rem !important;
 }
 
+[data-testid="stDecoration"] {
+    max-width: 60rem !important;
+}
+
 .css-12oz5g7 {
     padding-left: 1rem; 
     padding-right: 1rem; 
