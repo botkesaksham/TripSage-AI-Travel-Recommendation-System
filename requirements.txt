@@ -13,3 +13,4 @@ python-dotenv==1.0.0
 Flask==2.3.3 
 flask-cors==5.0.0
 gunicorn==21.2.0  
+discord.py==2.4.0
