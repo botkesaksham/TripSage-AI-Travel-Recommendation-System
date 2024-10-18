@@ -16,7 +16,7 @@
 }
 
 [data-testid="stDecoration"] {
-    max-width: 60rem !important;
+    display: none;
 }
 
 .css-12oz5g7 {
