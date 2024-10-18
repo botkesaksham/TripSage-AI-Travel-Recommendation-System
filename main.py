@@ -1,6 +1,5 @@
 import streamlit as st  
-import pathlib
-import pickle  
+import pathlib 
 from poi_trialmerged import FINAL  
 import pandas as pd  
 

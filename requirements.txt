@@ -1,20 +1,14 @@
-# streamlit==1.10.0
-# numpy==1.21.0  # Updated version for better compatibility with newer Python versions
-# plotly==4.9.0
-# folium==0.12.1
-# matplotlib==3.3.4
-# pandas==1.3.5  # Updated version for compatibility
-# streamlit-folium==0.4.0
-# setuptools>=58.0.0
-
-streamlit==1.10.0
-numpy==1.19.5
-plotly==4.9.0
-folium==0.12.1
-matplotlib==3.3.4
-pandas==1.1.5
-streamlit-folium==0.4.0
+python_version >= '3.9'
+streamlit== 1.30.0  
+numpy==1.25.0  
+plotly==5.15.0  
+folium==0.14.0  
+matplotlib==3.7.1 
+pandas==2.0.3 
+streamlit-folium==0.5.0 
 setuptools>=58.0.0
-altair<5
-python-telegram-bot==20.3  # Version for compatibility with telegram API
-python-dotenv==1.0.0       # For loading environment variables
+altair>=4.0,<5.0
+python-telegram-bot==20.3 
+python-dotenv==1.0.0
+Flask==2.3.3 
+gunicorn==21.2.0  

@@ -11,8 +11,8 @@
     margin: 0px !important;
 }
 
-[data-testid="stAppViewBlockContainer"] {
-    max-width: 70rem !important;;
+[data-testid="block-container"] {
+    max-width: 70rem !important;
 }
 
 .css-12oz5g7 {
@@ -22,8 +22,15 @@
 }
 
 [data-testid="stHeader"] {
-    background: transparent !important;;
+    background: transparent !important;
+    color:white;
 } 
+
+[data-testid="collapsedControl"] {
+    color:white;
+    box-shadow: transparent -2rem 0px
+}
+
 
 .css-17ziqus {
     background-color: rgb(38, 39, 48);

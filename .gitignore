@@ -3,3 +3,6 @@ Images
 Procfile
 setup.sh
 .env
+.venv
+node_modules
+bot integration
