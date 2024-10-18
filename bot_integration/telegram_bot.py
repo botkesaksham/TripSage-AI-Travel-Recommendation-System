@@ -4,9 +4,13 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext, ConversationHandler, CallbackQueryHandler
 from dotenv import load_dotenv
 import os
+from flask import Flask
+from threading import Thread
 
+# Load environment variables from .env file
 load_dotenv()
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
 # Define conversation states
 VACATION_TYPE, DURATION, BUDGET, TRAVEL_TYPE, PRIORITY = range(5)
 
@@ -33,7 +37,7 @@ async def greet(update: Update, context: CallbackContext) -> None:
         parse_mode="Markdown"
     )
 
-# Start the conversation (this is now the entry point for /start)
+# Start the conversation
 async def start(update: Update, context: CallbackContext) -> int:
     user_name = update.effective_user.first_name  # Get the user's first name
     await update.message.reply_text(
@@ -200,6 +204,16 @@ async def cancel(update: Update, context: CallbackContext) -> int:
     await update.message.reply_text("🚫 Operation canceled. You can start again by typing /start.")
     return ConversationHandler.END
 
+# Initialize Flask app
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is running!", 200
+
+def run_flask():
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+
 def main():
     application = Application.builder().token(TOKEN).build()
 
@@ -219,6 +233,11 @@ def main():
     application.add_handler(CommandHandler("greet", greet))
 
     application.add_handler(conv_handler)
+
+    # Run Flask in a separate thread
+    flask_thread = Thread(target=run_flask)
+    flask_thread.start()
+
     application.run_polling()
 
 if __name__ == '__main__':
