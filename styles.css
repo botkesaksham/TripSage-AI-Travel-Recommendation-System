@@ -23,7 +23,7 @@
 
 [data-testid="stHeader"] {
     background: transparent !important;
-    color:white;
+    filter: invert(1);
 } 
 
 [data-testid="collapsedControl"] {
