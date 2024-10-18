@@ -1,8 +1,10 @@
 import pandas as pd
 from flask import Flask, request, jsonify
 from poi_trialmerged import FINAL
+from flask_cors import CORS 
 
 app = Flask(__name__)
+CORS(app)
 
 # Function to get hotel price from the CSV file
 def get_hotel_price(hotel_name):
