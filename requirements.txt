@@ -1,4 +1,4 @@
-python_version >= '3.9'
+python_version >= 3.9
 streamlit== 1.39.0  # Latest stable version
 numpy==1.25.0  # Updated for better compatibility
 plotly==5.15.0  # Updated for better compatibility
@@ -8,7 +8,7 @@ pandas==2.0.3  # Updated for better compatibility
 streamlit-folium==0.5.0  # Updated for better compatibility
 setuptools>=58.0.0
 altair>=4.0,<5.0
-python-telegram-bot==20.9  # Updated to the latest version
+python-telegram-bot==20.3  # Updated to the latest version
 python-dotenv==1.0.0
 Flask==2.3.3  # Updated to the latest version
 gunicorn==21.2.0  # Updated to the latest version
