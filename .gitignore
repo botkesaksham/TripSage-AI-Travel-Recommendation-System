@@ -6,4 +6,4 @@ setup.sh
 .venv
 node_modules
 bot integration/voicechat_bot.py
-
+index.html
