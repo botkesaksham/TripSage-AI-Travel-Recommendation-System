@@ -34,22 +34,22 @@ https://tripsage.streamlit.app/
 To set up the project on your local machine:
 
 1. Clone the repository:
-
-   bash
-   git clone https://github.com/botkesaksham/TripSage-AI-Travel-Recommendation-System.git
+   ```
+   git clone "https://github.com/botkesaksham/TripSage-AI-Travel-Recommendation-System.git"
    cd TripSage-AI-Travel-Recommendation-System
+   ```
    
 
 2. Install the necessary dependencies:
-
-   bash
+   ```
    pip install -r requirements.txt
+   ```
    
 
 3. Run the main application:
-
-   bash
+   ```
    python -m streamlit run main.py
+   ```
    
 
 ## How it works
